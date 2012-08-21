@@ -77,7 +77,7 @@ public class GoogleAccountsService extends AbstractWebApplicationService {
         + "<Issuer>https://www.opensaml.org/IDP</Issuer>"
         + "<Subject>"
         + "<NameID Format=\"urn:oasis:names:tc:SAML:2.0:nameid-format:emailAddress\">"
-        + "<USERNAME_STRING>"
+        + "<USERNAME_STRING>" + "@ravellosystems.com"
         + "</NameID>"
         + "<SubjectConfirmation Method=\"urn:oasis:names:tc:SAML:2.0:cm:bearer\">"
         + "<SubjectConfirmationData Recipient=\"<ACS_URL>\" NotOnOrAfter=\"<NOT_ON_OR_AFTER>\" InResponseTo=\"<REQUEST_ID>\" />"
